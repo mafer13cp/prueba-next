@@ -12,6 +12,9 @@ export default function Home() {
       {open&&<p>hola</p>}
       <button onClick={()=> {setOpen(!open)}}>push me</button>
       <Saludo/>
+      <Link href="/characters">Go to characters</Link> <br/>
+      
+      <Link href="/charactersSSR">Go to charactersSSR</Link>
     </div>
   )
 }
